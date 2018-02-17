@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<title>The Box Model</title>
+</head>
+<style>
+* {
+	box-sizing: border-box;
+}
+body {
+	background-color: grey;
+	margin: 0;
+	padding: 0;
+}	
+#box {
+	background-color: blue;
+	padding: 5px 5px 5px 5px;
+	border: 3px solid black;
+	margin: 40px;
+	width: 400px;
+	box-sizing: content-box;
+}
+#content {
+	background-color: #90EE90; //green
+}
+h1 {
+	margin-bottom: 30px;
+}
+p {
+	background-color: blue;
+	padding: 10px 10px 10px 10px;
+	border: 3px solid black;
+	margin: 40px;
+	width: 500px;
+}
+</style>
+<body>
+<h1>Box Model</h1>
+<div id="box">
+	<div id="content">
+		a figure of speech where animals, ideas or inorganic objects are given human characteristics
+	</div>
+</div>
+
+<p>The Nellie, … swung to her anchor…, and was at rest … the only thing for it was to come to and wait for the turn of the tide</p>
+
+</body>
+</html>
