@@ -1,9 +1,14 @@
 // DOM Manipulation
-console.log(document.getElementById("title"));
+// console.log(document.getElementById("title"));
 
-console.log(document instanceof HTMLDocument);
+// console.log(document instanceof HTMLDocument);
 
 function sayHello () {
-	console.log(
-		document.getElementById('name').value)
+	var name =
+		document.getElementById("name").value;
+		var message = "Hello " + name + "!";
+
+		document
+		.getElementById("content")
+		.textContent = message;
 };
