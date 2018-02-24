@@ -3,6 +3,18 @@
 
 // console.log(document instanceof HTMLDocument);
 
+// object creation
+var company = new Object();
+company.name = "Facebook";
+company.ceo = new Object();
+company.ceo.firstname = "Mark";
+company.ceo.favColor = "blue";
+console.log(company);
+console.log("Company CEO name is: "
+	+ company.ceo.firstname);
+
+
+//event 
 function sayHello (event) {
 	this.textContent = "Said it!";
 	var name =
