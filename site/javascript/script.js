@@ -13,6 +13,13 @@ console.log(company);
 console.log("Company CEO name is: "
 	+ company.ceo.firstname);
 
+console.log(company["name"]);
+company.$stock = 110;
+
+console.log(company);
+console.log("Stock price is: " + company[stockPropNmae]);
+
+
 
 //event 
 function sayHello (event) {
