@@ -26,29 +26,34 @@
 // multiply.version = "v.1.0.0";
 // console.log(multiply.version);
 
-alert();
+// alert();
 
-function go(){
-	alert('hi');
-	alert('hey there');
-}
+// function
+// function go(){
+// 	alert('hi');
+// 	alert('hey there');
+// }
 
-go();
+// go();
 
-function call(name, age){
-	alert(name);
-	alert(age);
-}
-call('cool', 20);
+// function call(name, age){
+// 	alert(name);
+// 	alert(age);
+// }
+// call('cool', 20);
 
-function apple(color, weight, produce){
-	alert(color);
-	alert(weight);
-	alert(produce);
-}
+// function apple(color, weight, produce){
+// 	alert(color);
+// 	alert(weight);
+// 	alert(produce);
+// }
 
-apple('red', '400kg', 'Britain');
+// apple('red', '400kg', 'Britain');
 
+var name = "cool";
+var age = 20;
+alert(name);
+alert(age);
 
 //event 
 function sayHello (event) {
