@@ -19,12 +19,36 @@
 // console.log(company);
 // console.log("Stock price is: " + company[stockPropNmae]);
 
-function multiply(x, y) {
-	return x * y;
+// function multiply(x, y) {
+	// return x * y;
+// }
+// console.log(multiply(5, 3));
+// multiply.version = "v.1.0.0";
+// console.log(multiply.version);
+
+alert();
+
+function go(){
+	alert('hi');
+	alert('hey there');
 }
-console.log(multiply(5, 3));
-multiply.version = "v.1.0.0";
-console.log(multiply.version);
+
+go();
+
+function call(name, age){
+	alert(name);
+	alert(age);
+}
+call('cool', 20);
+
+function apple(color, weight, produce){
+	alert(color);
+	alert(weight);
+	alert(produce);
+}
+
+apple('red', '400kg', 'Britain');
+
 
 //event 
 function sayHello (event) {
