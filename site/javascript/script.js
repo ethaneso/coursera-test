@@ -36,24 +36,19 @@
 
 // go();
 
-// function call(name, age){
-// 	alert(name);
-// 	alert(age);
-// }
-// call('cool', 20);
+function call(name, age){
+	alert(name);
+	alert(age);
+ }
+call('cool', 20);
+call('dry', 10);
+call('freezing', 5);
 
-// function apple(color, weight, produce){
-// 	alert(color);
-// 	alert(weight);
-// 	alert(produce);
-// }
 
-// apple('red', '400kg', 'Britain');
-
-var name = "cool";
-var age = 20;
-alert(name);
-alert(age);
+// var name = "cool";
+// var age = 20;
+// alert(name);
+// alert(age);
 
 //event 
 function sayHello (event) {
