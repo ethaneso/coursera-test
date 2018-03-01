@@ -37,12 +37,12 @@
 // go();
 
 function call(name, age){
-	alert(name);
-	alert(age);
- }
-call('cool', 20);
-call('dry', 10);
-call('freezing', 5);
+	return name+age;
+	 }
+
+var add = call(1, 2);
+alert(add);
+
 
 
 // var name = "cool";
