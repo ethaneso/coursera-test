@@ -43,7 +43,10 @@ function call(name, age){
 var add = call(1, 2);
 alert(add);
 
-
+var myList = ['apples', 'organge', 'bananas'];
+myList.forEach(function(value, index) {
+	alert('I have '+value+' in my shopping bag');
+});
 
 // var name = "cool";
 // var age = 20;
