@@ -61,6 +61,14 @@ do {
 	times++;
 } while(times < 10);
 
+
+for (var i=0; i < myList.length; i++) {
+	console.log('i is', i);
+}
+
+for (var i=0; i < myList.length; i++) {
+	alert('you have '+myList[1]+' in your basket');
+}
 // var name = "cool";
 // var age = 20;
 // alert(name);
