@@ -48,6 +48,19 @@ myList.forEach(function(value, index) {
 	alert('I have '+value+' in my shopping bag');
 });
 
+//while loop
+var times = 0;
+while (times < 10) {
+	console.log('tried it', times);
+	times = times+1
+
+}
+
+do {
+	console.log('did it', times);
+	times++;
+} while(times < 10);
+
 // var name = "cool";
 // var age = 20;
 // alert(name);
